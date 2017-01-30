@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		CAB711ED1E3F0DB600B70B74 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EC1E3F0DB600B70B74 /* Picture.swift */; };
 		CAB711EF1E3F0E0E00B70B74 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EE1E3F0E0E00B70B74 /* Diary.swift */; };
+		CAB711F11E3F144700B70B74 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F01E3F144700B70B74 /* camera.png */; };
+		CAB711FD1E3F234600B70B74 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F31E3F234600B70B74 /* 01.jpg */; };
+		CAB711FE1E3F234600B70B74 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F41E3F234600B70B74 /* 02.jpg */; };
+		CAB711FF1E3F234600B70B74 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F51E3F234600B70B74 /* 03.jpg */; };
+		CAB712001E3F234600B70B74 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F61E3F234600B70B74 /* 04.jpg */; };
+		CAB712011E3F234600B70B74 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F71E3F234600B70B74 /* 05.jpg */; };
+		CAB712021E3F234600B70B74 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F81E3F234600B70B74 /* 06.jpg */; };
+		CAB712031E3F234600B70B74 /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F91E3F234600B70B74 /* 07.jpg */; };
+		CAB712041E3F234600B70B74 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711FA1E3F234600B70B74 /* 08.jpg */; };
+		CAB712051E3F234600B70B74 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711FB1E3F234600B70B74 /* 09.jpg */; };
+		CAB712061E3F234600B70B74 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711FC1E3F234600B70B74 /* 10.jpg */; };
 		CAF6DF4F1E3F0B6F002BBE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6DF4E1E3F0B6F002BBE15 /* AppDelegate.swift */; };
 		CAF6DF511E3F0B6F002BBE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6DF501E3F0B6F002BBE15 /* ViewController.swift */; };
 		CAF6DF541E3F0B6F002BBE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF6DF521E3F0B6F002BBE15 /* Main.storyboard */; };
@@ -23,6 +34,17 @@
 		733C9B1946FEE91E01367D5D /* Pods-MyDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDiary/Pods-MyDiary.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB711EC1E3F0DB600B70B74 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		CAB711EE1E3F0E0E00B70B74 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		CAB711F01E3F144700B70B74 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		CAB711F31E3F234600B70B74 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		CAB711F41E3F234600B70B74 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		CAB711F51E3F234600B70B74 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		CAB711F61E3F234600B70B74 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		CAB711F71E3F234600B70B74 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		CAB711F81E3F234600B70B74 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		CAB711F91E3F234600B70B74 /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
+		CAB711FA1E3F234600B70B74 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = "<group>"; };
+		CAB711FB1E3F234600B70B74 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = "<group>"; };
+		CAB711FC1E3F234600B70B74 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		CAF6DF4B1E3F0B6F002BBE15 /* MyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF6DF4E1E3F0B6F002BBE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF6DF501E3F0B6F002BBE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +83,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CAB711F21E3F233C00B70B74 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				CAB711F31E3F234600B70B74 /* 01.jpg */,
+				CAB711F41E3F234600B70B74 /* 02.jpg */,
+				CAB711F51E3F234600B70B74 /* 03.jpg */,
+				CAB711F61E3F234600B70B74 /* 04.jpg */,
+				CAB711F71E3F234600B70B74 /* 05.jpg */,
+				CAB711F81E3F234600B70B74 /* 06.jpg */,
+				CAB711F91E3F234600B70B74 /* 07.jpg */,
+				CAB711FA1E3F234600B70B74 /* 08.jpg */,
+				CAB711FB1E3F234600B70B74 /* 09.jpg */,
+				CAB711FC1E3F234600B70B74 /* 10.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
 		CAF6DF421E3F0B6F002BBE15 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +121,7 @@
 		CAF6DF4D1E3F0B6F002BBE15 /* MyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				CAB711F21E3F233C00B70B74 /* Photos */,
 				CAF6DF4E1E3F0B6F002BBE15 /* AppDelegate.swift */,
 				CAF6DF501E3F0B6F002BBE15 /* ViewController.swift */,
 				CAF6DF521E3F0B6F002BBE15 /* Main.storyboard */,
@@ -90,6 +130,7 @@
 				CAF6DF5A1E3F0B6F002BBE15 /* Info.plist */,
 				CAB711EC1E3F0DB600B70B74 /* Picture.swift */,
 				CAB711EE1E3F0E0E00B70B74 /* Diary.swift */,
+				CAB711F01E3F144700B70B74 /* camera.png */,
 			);
 			path = MyDiary;
 			sourceTree = "<group>";
@@ -157,7 +198,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB712051E3F234600B70B74 /* 09.jpg in Resources */,
+				CAB711FF1E3F234600B70B74 /* 03.jpg in Resources */,
+				CAB712041E3F234600B70B74 /* 08.jpg in Resources */,
+				CAB712001E3F234600B70B74 /* 04.jpg in Resources */,
+				CAB711FD1E3F234600B70B74 /* 01.jpg in Resources */,
+				CAB711FE1E3F234600B70B74 /* 02.jpg in Resources */,
+				CAB712011E3F234600B70B74 /* 05.jpg in Resources */,
+				CAB712031E3F234600B70B74 /* 07.jpg in Resources */,
+				CAB712061E3F234600B70B74 /* 10.jpg in Resources */,
+				CAB712021E3F234600B70B74 /* 06.jpg in Resources */,
 				CAF6DF591E3F0B6F002BBE15 /* LaunchScreen.storyboard in Resources */,
+				CAB711F11E3F144700B70B74 /* camera.png in Resources */,
 				CAF6DF561E3F0B6F002BBE15 /* Assets.xcassets in Resources */,
 				CAF6DF541E3F0B6F002BBE15 /* Main.storyboard in Resources */,
 			);
