@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        readDiary()
+    }
+    
+    func addDiary() {
         // 기본 Realm을 가져옵니다.
         let realm = try! Realm()
         
@@ -29,6 +33,20 @@ class ViewController: UIViewController {
         // 트랜잭션 안에서 Realm에 Diary 객체를 추가합니다.
         try! realm.write {
             realm.add(myDiary)
+        }
+    }
+    
+    func readDiary() {
+        // 기본 Realm을 가져옵니다.
+        let realm = try! Realm()
+        
+        // 모든 Diary 데이터를 읽습니다.
+        let diaries = realm.objects(Diary.self)
+        
+        // 결과 값에 담겨온 객체 하나하나를 읽어 텍스트를 출력합니다.
+        for diary in diaries {
+            let text = diary.text
+            print(text)
         }
     }
 }
