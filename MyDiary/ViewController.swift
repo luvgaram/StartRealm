@@ -36,6 +36,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
+        print(diaries[indexPath.row])
+        
+        let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        detailViewController.myDiary = diaries[indexPath.row]
+        self.present(detailViewController, animated: true)
     }
     
     @IBAction func picOneButton(_ sender: Any) {

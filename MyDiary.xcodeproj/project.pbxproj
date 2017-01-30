@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA191CB81E3F68A90088D2C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA191CB71E3F68A90088D2C2 /* DetailViewController.swift */; };
 		CAB711ED1E3F0DB600B70B74 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EC1E3F0DB600B70B74 /* Picture.swift */; };
 		CAB711EF1E3F0E0E00B70B74 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EE1E3F0E0E00B70B74 /* Diary.swift */; };
 		CAB711FD1E3F234600B70B74 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F31E3F234600B70B74 /* 01.jpg */; };
@@ -31,6 +32,7 @@
 		5B8F8AD0D9E93DF435EE27E0 /* Pods_MyDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEE053CDE506F60FE5E1511 /* Pods-MyDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDiary/Pods-MyDiary.release.xcconfig"; sourceTree = "<group>"; };
 		733C9B1946FEE91E01367D5D /* Pods-MyDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDiary/Pods-MyDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		CA191CB71E3F68A90088D2C2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CAB711EC1E3F0DB600B70B74 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		CAB711EE1E3F0E0E00B70B74 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		CAB711F31E3F234600B70B74 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				CAB711F21E3F233C00B70B74 /* Photos */,
 				CAF6DF4E1E3F0B6F002BBE15 /* AppDelegate.swift */,
+				CA191CB71E3F68A90088D2C2 /* DetailViewController.swift */,
 				CAF6DF501E3F0B6F002BBE15 /* ViewController.swift */,
 				CAF6DF521E3F0B6F002BBE15 /* Main.storyboard */,
 				CAF6DF551E3F0B6F002BBE15 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 			files = (
 				CAB711ED1E3F0DB600B70B74 /* Picture.swift in Sources */,
 				CAF6DF511E3F0B6F002BBE15 /* ViewController.swift in Sources */,
+				CA191CB81E3F68A90088D2C2 /* DetailViewController.swift in Sources */,
 				CAF6DF4F1E3F0B6F002BBE15 /* AppDelegate.swift in Sources */,
 				CAB711EF1E3F0E0E00B70B74 /* Diary.swift in Sources */,
 			);
