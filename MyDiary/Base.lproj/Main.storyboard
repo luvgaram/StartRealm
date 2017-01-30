@@ -157,6 +157,29 @@
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GHa-7O-B7Z"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eAR-Qo-Uo5">
+                                <rect key="frame" x="16" y="125" width="343" height="522"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="tableCell" textLabel="4Mb-3b-Xaf" style="IBUITableViewCellStyleDefault" id="XsE-BL-qPy">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XsE-BL-qPy" id="z1R-pG-7VG">
+                                            <rect key="frame" x="0.0" y="0.0" width="310" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Mb-3b-Xaf">
+                                                    <rect key="frame" x="15" y="0.0" width="293" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -164,13 +187,18 @@
                             <constraint firstItem="c6c-ot-cCC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="7NH-Hr-Wd7"/>
                             <constraint firstItem="Pw7-V3-oyD" firstAttribute="leading" secondItem="Soy-sn-Io5" secondAttribute="trailing" constant="8" id="7Qp-Dv-iil"/>
                             <constraint firstItem="Soy-sn-Io5" firstAttribute="top" secondItem="c6c-ot-cCC" secondAttribute="bottom" constant="8" id="Ejb-Ss-yuV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eAR-Qo-Uo5" secondAttribute="trailing" id="Ja4-3e-vbr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Pw7-V3-oyD" secondAttribute="trailing" id="OGG-fy-CID"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="eAR-Qo-Uo5" secondAttribute="leading" id="bft-1J-dSy"/>
+                            <constraint firstItem="eAR-Qo-Uo5" firstAttribute="top" secondItem="Soy-sn-Io5" secondAttribute="bottom" constant="15" id="mKL-z8-HNc"/>
                             <constraint firstItem="Soy-sn-Io5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="nUX-0W-em9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eAR-Qo-Uo5" secondAttribute="bottom" constant="20" id="pOL-kN-pSO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="c6c-ot-cCC" secondAttribute="trailing" constant="8" id="s4j-13-ITq"/>
                             <constraint firstItem="Pw7-V3-oyD" firstAttribute="centerY" secondItem="Soy-sn-Io5" secondAttribute="centerY" id="vqD-V9-sRU"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="eAR-Qo-Uo5" id="ZWh-5G-GJp"/>
                         <outlet property="textView" destination="Soy-sn-Io5" id="acd-Ar-NX9"/>
                     </connections>
                 </viewController>

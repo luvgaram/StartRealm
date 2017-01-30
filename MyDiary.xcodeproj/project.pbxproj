@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CAB711ED1E3F0DB600B70B74 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EC1E3F0DB600B70B74 /* Picture.swift */; };
 		CAB711EF1E3F0E0E00B70B74 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB711EE1E3F0E0E00B70B74 /* Diary.swift */; };
-		CAB711F11E3F144700B70B74 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F01E3F144700B70B74 /* camera.png */; };
 		CAB711FD1E3F234600B70B74 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F31E3F234600B70B74 /* 01.jpg */; };
 		CAB711FE1E3F234600B70B74 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F41E3F234600B70B74 /* 02.jpg */; };
 		CAB711FF1E3F234600B70B74 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAB711F51E3F234600B70B74 /* 03.jpg */; };
@@ -34,7 +33,6 @@
 		733C9B1946FEE91E01367D5D /* Pods-MyDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDiary/Pods-MyDiary.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB711EC1E3F0DB600B70B74 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		CAB711EE1E3F0E0E00B70B74 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
-		CAB711F01E3F144700B70B74 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		CAB711F31E3F234600B70B74 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
 		CAB711F41E3F234600B70B74 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
 		CAB711F51E3F234600B70B74 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				CAF6DF5A1E3F0B6F002BBE15 /* Info.plist */,
 				CAB711EC1E3F0DB600B70B74 /* Picture.swift */,
 				CAB711EE1E3F0E0E00B70B74 /* Diary.swift */,
-				CAB711F01E3F144700B70B74 /* camera.png */,
 			);
 			path = MyDiary;
 			sourceTree = "<group>";
@@ -209,7 +206,6 @@
 				CAB712061E3F234600B70B74 /* 10.jpg in Resources */,
 				CAB712021E3F234600B70B74 /* 06.jpg in Resources */,
 				CAF6DF591E3F0B6F002BBE15 /* LaunchScreen.storyboard in Resources */,
-				CAB711F11E3F144700B70B74 /* camera.png in Resources */,
 				CAF6DF561E3F0B6F002BBE15 /* Assets.xcassets in Resources */,
 				CAF6DF541E3F0B6F002BBE15 /* Main.storyboard in Resources */,
 			);
